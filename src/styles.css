@@ -1,0 +1,68 @@
+@import "pokemonLoading.css";
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#researchOptions {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  background-color: white;
+  border-bottom: double;
+}
+
+body {
+  background-image: url("https://www.desktopbackground.org/download/o/2015/08/10/992846_pokemon-wallpapers-original-150_3900x2459_h.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#researchOptions > #logo > img {
+  width: 30%;
+  height: auto;
+}
+
+#researchOptions > #researchOptionsInput {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#PokedexList {
+  display: inline-block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  width: 90%;
+  left: 0;
+  right: 0;
+  border-left: double;
+  border-right: double;
+  background-color: white;
+}
+
+#PokemonListTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#PokemonListTable > tr > td > img {
+  height: 128px;
+  width: 128px;
+}
+
+#LoadingPokemons {
+  line-height: 50px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  left: 50%;
+  margin: 0 auto;
+  border: 3px solid green;
+  padding: 10px; /* Need a specific value to work */
+}
